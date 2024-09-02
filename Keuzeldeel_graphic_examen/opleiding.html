@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage - Aventus Factory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+            background-image: linear-gradient(to bottom right, #92c1e9, #ffffff); /* Gradient background */
+        }
+
+        .content-wrapper {
+            z-index: 1; 
+            max-width: 1000px;
+            width: 100%;
+            padding: 0px;
+            background-color: rgba(255, 255, 255, 0); 
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .main-content {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            color: #000000;
+        }
+
+        .main-content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .main-content h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .main-content p {
+            font-size: 1.6em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .signup-button {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .signup-button:hover {
+            background-color: #1565c0;
+        }
+
+        .boxed-background {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        h1::after, h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, #1e90ff, #1565c0);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <img src="images/logo_blauw.png" alt="Aventus Logo">
+    </div>
+    <div class="nav-links">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#opleidingen">Onze opleidingen</a>
+        <a href="../index.html#stage">Stage</a>
+        <a href="../index.html#werkgevers">Werkgevers</a>
+        <a href="../index.html#contact">Contact</a>
+    </div>
+</header>
+
+<div class="content-wrapper">
+    <div class="main-content">
+        <div class="opleiding boxed-background">
+            <h1>Opleidingen bij Aventus Factory</h1>
+
+            <div class="opleiding">
+                <h2>Software Developer</h2>
+                <p>
+                    De opleiding Software Developer bij Aventus Factory bereidt je voor op een dynamische carrière in de wereld van softwareontwikkeling. Je leert niet alleen coderen, maar ook hoe je software ontwerpt, ontwikkelt, test en implementeert.
+                </p>
+                <p>
+                    Onze focus ligt op technische innovaties en het bouwen van software die de volgende generatie (nog) beter maakt. Tijdens de opleiding werk je aan realistische projecten en krijg je de kans om je vaardigheden te ontwikkelen in een stimulerende omgeving.
+                </p>
+            </div>
+
+            <a href="https://www.aventus.nl/richtingen/ict" class="signup-button">Schijf je in</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

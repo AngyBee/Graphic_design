@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werkgevers en Partners - Aventus Factory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: linear-gradient(to bottom right, #92c1e9, #ffffff);
+        background-size: cover; 
+        background-attachment: fixed; 
+    }
+
+
+        .content-wrapper {
+            z-index: 1;
+            max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .main-content {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            color: #000000;
+            text-align: center; 
+            margin-top: 10%;
+        }
+
+        .main-content h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .main-content h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .main-content p {
+            font-size: 1.6em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .signup-button {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .signup-button:hover {
+            background-color: #1565c0;
+        }
+
+        .boxed-background {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        h1::after, h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, #1e90ff, #1565c0);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header from styles.css -->
+<header class="navbar">
+    <div class="logo">
+        <img src="images/logo_blauw.png" alt="Aventus Logo">
+    </div>
+    <div class="nav-links">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#opleidingen">Onze opleidingen</a>
+        <a href="../index.html#stage">Stage</a>
+        <a href="../index.html#werkgevers">Werkgevers</a>
+        <a href="../index.html#contact">Contact</a>
+    </div>
+</header>
+
+
+    <div class="main-content">
+        <div class="partners boxed-background">
+            <h1>Werkgevers en Partners bij Aventus Factory</h1>
+
+            <div class="partners-info">
+                <h2>Voor Werkgevers</h2>
+                <p>
+                    Werkgevers zijn van harte welkom om samen met ons te werken aan spannende en baanbrekende projecten. Bij Aventus Factory moedigen we werkgevers aan om hun expertise en ervaring in te brengen. Samen met onze studenten kunnen zij innovatieve oplossingen ontwikkelen en hun bedrijf laten groeien.
+                </p>
+
+                <h2>Voor Partners</h2>
+                <p>
+                    Partnerships zijn essentieel voor onze missie bij Aventus Factory. We streven ernaar om nauw samen te werken met bedrijven en organisaties die onze visie delen en die willen bijdragen aan de ontwikkeling van jong talent. Samen creëren we waardevolle kansen voor studenten en versterken we de connectie tussen onderwijs en het bedrijfsleven.
+                </p>
+            </div>
+
+            <a href="https://www.aventus.nl/samenwerken-met-aventus/" class="signup-button">Samenwerken met Aventus</a>
+        </div>
+    </div>
+
+
+<!-- Script from styles.css for smooth scrolling -->
+<script src="styles.css"></script>
+
+</body>
+</html>
